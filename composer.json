@@ -1,0 +1,10 @@
+{
+    "name": "restoreddev/preloading",
+    "require": {
+        "slim/slim": "^3.12",
+        "slim/php-view": "^2.2"
+    },
+    "scripts": {
+        "server": "php -S localhost:8080 -t public public/index.php"
+    }
+}
